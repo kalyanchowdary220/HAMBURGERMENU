@@ -1,0 +1,22 @@
+/* Write your CSS here */
+.not-found-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.notFound-img {
+  height: 300px;
+  width: 300px;
+}
+.not-found-heading {
+  font-family: 'roboto';
+  color: #616e7c;
+}
+
+.not-found-para {
+  font-family: 'roboto';
+  color: #616e7c;
+  font-weight: 500;
+}

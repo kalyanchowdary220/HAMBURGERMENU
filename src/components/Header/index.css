@@ -1,0 +1,76 @@
+/* Write your CSS here */
+.nav-header {
+  background-color: #dcdcdc;
+}
+
+@media screen and (max-width: 768px) {
+  .nav-header {
+    margin: 20px;
+    padding: 20px;
+  }
+}
+
+.nav-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.website-logo {
+  height: 50px;
+  width: 50px;
+}
+
+.menu-button {
+  height: 40px;
+  width: 40px;
+  border: 0;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.popup-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  background-color: #ffffff;
+}
+.model-container {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+  max-width: 458px;
+}
+@media screen and (min-width: 768px) {
+  .model-container {
+    width: 1110px;
+  }
+}
+
+.close-button {
+  align-self: flex-end;
+  border: none;
+  margin-top: 20px;
+  background-color: transparent;
+}
+.list-icons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+  flex-grow: 1;
+  padding-left: 0;
+}
+
+.home-link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+}
